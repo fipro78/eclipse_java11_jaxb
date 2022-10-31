@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JAXB Model
+Bundle-SymbolicName: org.fipro.jaxb.model
+Bundle-Version: 1.0.0.qualifier
+Import-Package: javax.xml.bind,
+ javax.xml.bind.annotation,
+ org.fipro.model.api;version="1.0.0"
+Automatic-Module-Name: org.fipro.jaxb.model
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Service-Component: OSGI-INF/org.fipro.jaxb.model.PersonServiceImpl.xml
+Bundle-ActivationPolicy: lazy

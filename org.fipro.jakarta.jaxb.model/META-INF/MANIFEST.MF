@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jakarta JAXB Model
+Bundle-SymbolicName: org.fipro.jakarta.jaxb.model
+Bundle-Version: 1.0.0.qualifier
+Import-Package: jakarta.xml.bind;version="4.0.0",
+ jakarta.xml.bind.annotation;version="4.0.0",
+ org.eclipse.persistence.internal.jaxb;version="4.0.0",
+ org.fipro.model.api;version="1.0.0"
+Automatic-Module-Name: org.fipro.jaxb.model
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Service-Component: OSGI-INF/org.fipro.jaxb.model.PersonServiceImpl.xml
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JAXB Sun XML Binding Fragment
+Bundle-SymbolicName: jaxb.impl.binding
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: jakarta.xml.bind-api;bundle-version="2.3.3"
+Automatic-Module-Name: jaxb.impl.binding
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+DynamicImport-Package: com.sun.xml.bind.*
